@@ -1,0 +1,16 @@
+body {
+  background: linear-gradient(to right, #005c97, #363795);
+  min-height: 100%;
+  padding: 4rem;
+}
+
+.header {
+  background: white;
+  height: 10rem;
+}
+
+.collection {
+  background: blue;
+}
+
+/*# sourceMappingURL=style.css.map */
