@@ -1,0 +1,18 @@
+@use "../abstracts/mixins";
+
+.collection{
+    width: 100%;
+
+    &__list{
+        margin-top: 4rem;
+        list-style: none;
+        @include mixins.flexJ;
+        gap: 1rem;
+        font-size: 3rem;
+    
+        &--first{
+            font-size: 5rem;
+        }
+    }
+}
+

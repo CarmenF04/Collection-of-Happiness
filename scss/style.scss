@@ -1,6 +1,14 @@
+// Scsss basis
 @use "./abstracts/reset";
 @use "./base.scss";
-@use "./components/header/header.scss";
-@use "./components/collection/collection.scss";
-@use "./abstracts/mediaqueries";
+
+// Abstracts
 @use "./abstracts/colors";
+@use "./abstracts/mediaqueries";
+@use "./abstracts/mixins";
+@use "./abstracts/vars";
+
+// Components
+@use "./components/header.scss";
+@use "./components/main.scss";
+@use "./components/footer.scss";

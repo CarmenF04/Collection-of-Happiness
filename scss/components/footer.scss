@@ -1,0 +1,7 @@
+@use "../abstracts/mixins";
+
+footer{
+    padding: 5rem;
+    @include mixins.flexJ;
+    width: 100%;
+}
