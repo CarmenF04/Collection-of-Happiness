@@ -201,7 +201,6 @@ class rightside{
         this.rightDate.innerText = data.date;
         this.rightsum.innerText = data.summary;
         this.audio.innerText = "audio";
-        this.source.innerText = "source";
         this.audio.src = data.audio;
         this.source.href = data.source;
 
@@ -242,7 +241,7 @@ class footer{
         
         this.footerPElement = document.createElement("p");
         this.footerPElement.classList = "footer__p";
-        this.footerPElement.innerText = "Gemaakt door Carmen Faas"
+        this.footerPElement.innerText = "Gemaakt door Carmen Faas SD2D"
     }
 
     render(){
