@@ -1,0 +1,29 @@
+@media screen and (max-width: 62.5rem) {
+
+
+    .collection {
+        width: 100%;
+
+        &__main {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        &__article {
+            display: flex;
+            justify-content: center;
+        }
+
+        &__cards {
+            width: 100%;
+        }
+
+        &__wrapper {
+            width: 100%;
+            gap: 2rem;
+            flex-direction: column;
+        }
+    }
+
+}

@@ -201,6 +201,7 @@ class rightside{
         this.rightDate.innerText = data.date;
         this.rightsum.innerText = data.summary;
         this.audio.innerText = "audio";
+        this.source.innerText = "source";
         this.audio.src = data.audio;
         this.source.href = data.source;
 

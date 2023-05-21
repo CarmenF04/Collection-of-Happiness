@@ -10,9 +10,31 @@ html {
 
 body {
   font-size: 2rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
+@media screen and (max-width: 62.5rem) {
+  .collection {
+    width: 100%;
+  }
+  .collection__main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .collection__article {
+    display: flex;
+    justify-content: center;
+  }
+  .collection__cards {
+    width: 100%;
+  }
+  .collection__wrapper {
+    width: 100%;
+    gap: 2rem;
+    flex-direction: column;
+  }
+}
 .collection {
   width: 100%;
 }
@@ -21,8 +43,8 @@ body {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 1rem;
   font-size: 3rem;
+  gap: 1rem;
 }
 .collection__list--first {
   font-size: 5rem;
@@ -59,15 +81,15 @@ body {
   width: 160rem;
 }
 .collection__cards {
+  flex-wrap: wrap;
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
   gap: 2rem;
   width: 45rem;
 }
 .collection__card {
-  width: 20rem;
   height: 20rem;
+  width: 20rem;
   position: relative;
 }
 .collection__p--titel {
@@ -92,11 +114,7 @@ body {
   padding: 5rem;
 }
 .collection__paragraph {
-  margin-top: 2rem;
-}
-.collection__audio {
-  width: 20rem;
-  height: 4rem;
+  margin-top: 2.5rem;
 }
 .collection__wrapper {
   display: flex;
@@ -107,9 +125,9 @@ body {
 }
 
 .episode__preview {
+  object-fit: cover;
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
 footer {

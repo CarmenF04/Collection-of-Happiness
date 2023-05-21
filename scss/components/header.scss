@@ -7,8 +7,8 @@
         margin-top: 4rem;
         list-style: none;
         @include mixins.flexJ;
-        gap: 1rem;
         font-size: 3rem;
+        gap: 1rem;
     
         &--first{
             font-size: 5rem;
